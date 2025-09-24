@@ -44,3 +44,5 @@ jobs:
     name: Test & Build on ${{ matrix.os }}
     steps:
       - uses: Danil42Russia/toolchain/build@v1.6.0
+        with:
+          os: ${{ matrix.os }}
